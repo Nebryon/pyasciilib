@@ -32,10 +32,10 @@ import pyascii
 
 # Converts an image to ASCII with default parameters
 ascii_art = pyascii.image_to_ascii(
-    image_link=“path/to/image.jpg”,
-    method=“text”,
-    size=(100, 100),
-    chars=None
+    path_to_image=“path/to/image.jpg”,
+    returned=“text”
+    size=(0, 0), #Default value, (0, 0)->same as original image
+    chars=["@", "#", "%", "*", "+", "=", "-", ":", "."] # Default characters from more to less dense
 )
 
 print(ascii_art)
@@ -103,9 +103,7 @@ We welcome contributions to improve and expand the **pyascii** library! Whether 
     ```
 4. **Make Your Changes**: Add your modifications or new features.
 
-5. **Test Your Code**: Ensure your code works correctly by testing it and adhering to the project's standards.
-
-6. **Submit a Pull Request (PR)**: Once your changes are ready, push them to your fork, then submit a PR to the master branch of this repository.
+5. **Submit a Pull Request (PR)**: Once your changes are ready, push them to your fork, then submit a PR to the master branch of this repository.
 
  - Describe your changes and their purpose.
  - Mention any related issues you've resolved.
@@ -121,6 +119,6 @@ To maintain the project's stability and security, we have implemented a branch p
 ---
 
 ## Contact
-Created by Alexandre Poggioli - alexandrepoggioli09@gmail.com
+Created by Alexandre Poggioli (Slinky802) - alexandrepoggioli09@gmail.com
 
 More information on https://slinky-presentation.netlify.app
