@@ -35,7 +35,7 @@ ascii_art = pyascii.image_to_ascii(
     image_link=“path/to/image.jpg”,
     method=“text”,
     size=(100, 100),
-    charset=None
+    chars=None
 )
 
 print(ascii_art)
@@ -44,8 +44,6 @@ print(ascii_art)
 ---
 
 ## Features
-
-**Flexible Output Format:** Returns the result either as printable ASCII text, or as a list of character lists.
 
 **Output Size:** Defines the dimensions (width, height) of the output ASCII image.
 
@@ -96,7 +94,7 @@ We welcome contributions to improve and expand the **pyascii** library! Whether 
 
 2. **Clone the Project**: Clone your fork locally to work on the code.
    ```bash
-   git clone https://github.com/<your_username>/pyascii.git
+   git clone https://github.com/Slinky802/pyascii
    cd pyascii
    ```
 3. **Create a New Branch**: Before making changes, create a new branch for your work.
