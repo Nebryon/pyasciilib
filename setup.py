@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="pyasciilib",
-    version="1.0.0",
+    version="1.0.1",
     author="Alexandre Poggioli",
     author_email="alexandrepoggioli09@gmail.com",
     description="A library to convert images to ASCII art using different methods",
