@@ -1,6 +1,7 @@
 """
 pyascii is a library created by Alexandre Poggioli
     https://slinky-presentation.netlify.app
+    https://github.com/Slinky802/pyascii
 
 This library allows converting an image into ASCII using different methods.
 It supports multiple languages and offers various customization options.
