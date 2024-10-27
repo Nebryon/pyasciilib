@@ -1,0 +1,8 @@
+# Ignorer les fichiers de cache Python
+__pycache__/
+
+# Ignorer le dossier de distribution
+dist/
+
+# Ignorer le dossier des informations sur le paquetage
+*.egg-info/
