@@ -1,8 +1,8 @@
-# pyascii
+# pyimage2ascii
 
-https://github.com/Slinky802/pyascii
+https://github.com/Slinky802/pyimage2ascii
 
-**pyascii** is a Python library for converting images into ASCII art, using various methods and supporting several languages. It offers customization options, such as output size, ASCII characters used, and output format (text or list of lists).
+**pyimage2ascii** is a Python library for converting images into ASCII art, using various methods and supporting several languages. It offers customization options, such as output size, ASCII characters used, and output format (text or list of lists).
 
 ## Contents
 - [Installation](#installation)
@@ -19,7 +19,7 @@ https://github.com/Slinky802/pyascii
 To install the library, use pip :
 
 ``` bash
-pip install pyascii
+pip install pyimage2ascii
 ```
 
 ---
@@ -28,10 +28,10 @@ pip install pyascii
 Basic example of converting an image to ASCII:
 
 ```python
-import pyascii
+import pyimage2ascii
 
 # Converts an image to ASCII with default parameters
-ascii_art = pyascii.image_to_ascii(
+ascii_art = pyimage2ascii.image_to_ascii(
     path_to_image=“path/to/image.jpg”,
     returned=“text”
     size=(0, 0), #Default value, (0, 0)->same as original image
@@ -75,7 +75,7 @@ print(ascii_art)
 
  - ar : Arabic
 
-Use ```pyascii.ascii_help(language)``` to display instructions according to the selected language.
+Use ```pyimage2ascii.ascii_help(language)``` to display instructions according to the selected language.
 
 ---
 
@@ -86,7 +86,7 @@ This project is licensed under the MIT license - see the LICENSE file for detail
 
 ## Contribute
 
-We welcome contributions to improve and expand the **pyascii** library! Whether you want to add a feature, fix a bug, or enhance the documentation, follow these steps to contribute:
+We welcome contributions to improve and expand the **pyimage2ascii** library! Whether you want to add a feature, fix a bug, or enhance the documentation, follow these steps to contribute:
 
 ### Steps to Contribute
 
@@ -94,8 +94,8 @@ We welcome contributions to improve and expand the **pyascii** library! Whether 
 
 2. **Clone the Project**: Clone your fork locally to work on the code.
    ```bash
-   git clone https://github.com/Slinky802/pyascii
-   cd pyascii
+   git clone https://github.com/Slinky802/pyimage2ascii
+   cd pyimage2ascii
    ```
 3. **Create a New Branch**: Before making changes, create a new branch for your work.
     ```bash

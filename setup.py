@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="pyascii",
+    name="pyimage2ascii",
     version="1.0.0",
     author="Alexandre Poggioli",
     author_email="alexandrepoggioli09@gmail.com",
@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pyascii=pyascii.cli:main",
+            "pyimage2ascii=pyimage2ascii.cli:main",
         ],
     },
 )
