@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="pyasciilib",
-    version="1.0.1",
+    version="1.0.2",
     author="Alexandre Poggioli",
     author_email="alexandrepoggioli09@gmail.com",
     description="A library to convert images to ASCII art using different methods",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://slinky-presentation.netlify.app",
+    url="https://github.com/Slinky802/pyasciilib",
     packages=find_packages(),
     include_package_data=True,
     classifiers=[
