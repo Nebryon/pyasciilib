@@ -1,6 +1,6 @@
 # pyasciilib
 
-https://github.com/Slinky802/pyasciilib
+https://github.com/Nebryon/pyasciilib
 
 **pyasciilib** is a Python library for converting images into ASCII art, using various methods and supporting several languages. It offers customization options, such as output size, ASCII characters used, and output format (text or list of lists).
 
